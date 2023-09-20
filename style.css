@@ -1,0 +1,38 @@
+img{
+    max-width: 250px;
+    height: auto;
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 8px solid brown;
+    border-radius: 50%;
+
+    position: relative;
+    animation-name: img-abc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+
+@keyframes img-abc {
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+    
+    50%{
+        top: 100px;
+        left: 0;
+        opacity: 0.5;
+        
+    }
+
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
